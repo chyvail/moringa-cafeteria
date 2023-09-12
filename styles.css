@@ -59,7 +59,12 @@ form input[type="text"],input[type="email"], textarea{
 
 /* Exercise 7: Footer Styling (5 minutes) */
 /* Style the footer section, including background color, text color, and alignment. */
-
+footer{
+    background-color: rgb(122, 197, 197);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
 
 /* Exercise 8: Responsive Design (15 minutes) */
 /* Make the website responsive by using media queries to adjust styling for different screen sizes. */
