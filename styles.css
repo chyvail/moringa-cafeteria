@@ -26,7 +26,7 @@
   --color-light: #fff8f5;
   --color-dark: #555555;
   --transition: all 400ms ease;
-  --container-width-lg: 75%;
+  --container-width-lg: 95%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
@@ -179,7 +179,6 @@ p {
 }
 .location {
   display: flex;
-  align-items: center;
 }
 
 .location-text {
@@ -189,10 +188,10 @@ p {
 .location-text p {
   font-size: 20px;
   color: #4a4a4a;
-  margin-top: 10px;
+  padding-top: 10px !important;
 }
 
-.actual-story{
+.actual-story {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 4rem;
@@ -228,11 +227,77 @@ p {
 }
 
 .cards {
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .popular-dishes {
+  text-align: center;
+}
+
+.popular-dishes h3 {
+  margin-top: 30px !important;
+}
+
+.dishes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.dishes p {
+  padding-top: 5px !important;
+  color: var(--color-dark);
+}
+.dish-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 10px;
+}
+
+.individual-dishes p {
+  max-width: 250px;
+}
+
+.dish-price h6 {
+  font-size: 22px;
+  font-family: Cormorant Infant;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+.dish-image {
+  background-image: url(./assets/images/Chicken.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+.dish-image2 {
+  background-image: url(./assets/images/Manjoori.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+.dish-image3 {
+  background-image: url(./assets/images/Chicken-two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+.dish-image4 {
+  background-image: url(./assets/images/Burger.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+}
+
+.all-dishes {
   text-align: center;
 }
 /* Exercise 3: Hero Section Styling (5 minutes) */
@@ -277,10 +342,11 @@ textarea {
 /* Exercise 7: Footer Styling (5 minutes) */
 /* Style the footer section, including background color, text color, and alignment. */
 footer {
-  background-color: rgb(122, 197, 197);
-  color: #333;
+  background-color: var(--color-primary);
+  color: var(--color-white);
   text-align: center;
   padding: 20px;
+  margin-top: 50px;
 }
 
 /* Exercise 8: Responsive Design (15 minutes) */
