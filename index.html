@@ -1,89 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moringa Cafeteria</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Restaurantate</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Exercise 1: Header (5 minutes) -->
     <!-- Create a header section with the restaurant's name and navigation menu. -->
     <!-- Exercise 2: Navigation Menu (5 minutes) -->
     <!-- Create a navigation menu with links to Home, Menu, About Us, and Contact pages. -->
-    <header>
-        <h1>Moringa Cafeteria</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <section class="dark-bg">
+      <div class="header-top container">
+        <div class="button-outlined">
+          <a> Call . +(254) 711567629 </a>
+        </div>
+        <div class="logo">
+          <img src="./assets/images/Logo.svg" alt="Logo svg" />
+        </div>
+        <div class="reservation">
+          <img src="./assets/images/Cart-Icon.svg" alt="cart svg" />
+          <div class="button-outlined filled">
+            <a> Reservation</a>
+          </div>
+        </div>
+      </div>
+      <nav class="menu container">
+        <div class="main-navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="socials">
+            <img src="./assets/icons/Insta.svg" alt="Instagram">
+            <img src="./assets/icons/Fb.svg" alt="Facebook">
+            <img src="./assets/icons/Twiter.svg" alt="Twitter">
+            <img src="./assets/icons/Pintrest.svg" alt="Pintrest">
+        </div>
+      </nav>
+      <div class="hero-section container">
+        <h1>Welcome to the Restaurant</h1>
+      </div>
+    </section>
 
     <!-- Exercise 3: Hero Section (5 minutes) -->
     <!-- Add a hero section with an image and a welcoming message. -->
     <section class="hero">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStirUAiRmcXFzAEGdtR75Mm4SiPDjnLSWRpD5kWdj8&s" alt="restaurant logo">
-        <h2>Welcome to Moringa Cafeteria</h2>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStirUAiRmcXFzAEGdtR75Mm4SiPDjnLSWRpD5kWdj8&s"
+        alt="restaurant logo"
+      />
+      <h2>Welcome to Moringa Cafeteria</h2>
     </section>
 
     <!-- Exercise 4: Menu Section (10 minutes) -->
     <!-- Create a menu section with at least three food items. Include the name and description of each item. -->
     <section class="items">
-        <h3>Our Menu</h3>
-        <ul>
-            <li>
-                <h4>Yoghurtfruit salad</h4>
-                <p>Mix of yoghurt and fruit salad</p>
-            </li>
-            <li>
-                <h4>Pilau</h4>
-                <p>Mix of spicy rice and beef</p>
-            </li>
-            <li>
-                <h4>Ugali beef</h4>
-                <p>Mix of ugali and beef with greens</p>
-            </li>
-        </ul>
+      <h3>Our Menu</h3>
+      <ul>
+        <li>
+          <h4>Yoghurtfruit salad</h4>
+          <p>Mix of yoghurt and fruit salad</p>
+        </li>
+        <li>
+          <h4>Pilau</h4>
+          <p>Mix of spicy rice and beef</p>
+        </li>
+        <li>
+          <h4>Ugali beef</h4>
+          <p>Mix of ugali and beef with greens</p>
+        </li>
+      </ul>
     </section>
 
     <!-- Exercise 5: About Us Section (5 minutes) -->
     <!-- Create an "About Us" section with a brief description of the restaurant. -->
     <section class="about">
-        <h3>About Us</h3>
-        <p>Learn about our restaurant's history and team.</p>
+      <h3>About Us</h3>
+      <p>Learn about our restaurant's history and team.</p>
     </section>
 
     <!-- Exercise 6: Contact Section (10 minutes) -->
     <!-- Add a "Contact Us" section with a contact form (name, email, message) and the restaurant's address. -->
     <section>
-        <h3>Contact Us</h3>
-        <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" required><br>
-            <label for="email">Email</label>
-            <input type="email" id="email" required><br>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4"></textarea><br>
-            <button type="submit">Submit</button>
-        </form>
+      <h3>Contact Us</h3>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" required /><br />
+        <label for="email">Email</label>
+        <input type="email" id="email" required /><br />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea><br />
+        <button type="submit">Submit</button>
+      </form>
     </section>
 
     <!-- Exercise 7: Footer (5 minutes) -->
     <!-- Create a footer section with a copyright notice. -->
     <footer>
-        <p>&copy; 2023 Moringa Cafeteria. All Rights Reserved.</p>
+      <p>&copy; 2023 Moringa Cafeteria. All Rights Reserved.</p>
     </footer>
 
     <!-- Exercise 8: CSS Styling (15 minutes) -->
     <!-- Create an external CSS file (styles.css) and link it here to style your website. -->
-</body>
-
+  </body>
 </html>
