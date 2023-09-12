@@ -11,7 +11,14 @@ header {
     
 /* Exercise 2: Navigation Menu Styling (5 minutes) */
 /* Style the navigation menu links, including text color, font size, and hover effects. */
-nav
+.menu a{
+    color: #333;
+    font-size: 16px;
+}
+
+.menu a:hover{
+    color: rgb(73, 91, 91);
+}
 
 /* Exercise 3: Hero Section Styling (5 minutes) */
 /* Style the hero section, including the background image, text color, and alignment. */
