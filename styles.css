@@ -48,9 +48,18 @@ header {
 
 /* Exercise 6: Contact Section Styling (10 minutes) */
 /* Style the "Contact Us" section, including the contact form, form inputs, and address display. */
+form{
+    text-align: center;
+}
+form input[type="text"],input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
 
 /* Exercise 7: Footer Styling (5 minutes) */
 /* Style the footer section, including background color, text color, and alignment. */
+
 
 /* Exercise 8: Responsive Design (15 minutes) */
 /* Make the website responsive by using media queries to adjust styling for different screen sizes. */
