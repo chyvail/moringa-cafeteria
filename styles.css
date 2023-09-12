@@ -68,3 +68,8 @@ footer{
 
 /* Exercise 8: Responsive Design (15 minutes) */
 /* Make the website responsive by using media queries to adjust styling for different screen sizes. */
+@media (max-width: 768px){
+
+}
+    
+
