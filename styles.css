@@ -40,6 +40,11 @@ header {
 
 /* Exercise 5: About Us Section Styling (5 minutes) */
 /* Style the "About Us" section, including text alignment, font size, and background color. */
+.about{
+    text-align: center;
+    font-size: 18px;
+    background-color: burlywood;
+}
 
 /* Exercise 6: Contact Section Styling (10 minutes) */
 /* Style the "Contact Us" section, including the contact form, form inputs, and address display. */
